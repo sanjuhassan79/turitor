@@ -1,0 +1,1682 @@
+/* ===================================================
+Template Name: Water Drop HTML 5 Template
+Template URI: https://asifjalil.xyz/water-drop
+Description: Water Drop HTML 5 Template
+Author: Asif Jalil
+Author URI: https://asifjalil.xyz
+Version: 1.0
+=================================================== */
+
+/* CSS Index
+-----------------------------------------------------
+01. Template Default CSS
+02. common css
+03. header css
+04. slider CSS
+05. sponsor CSS
+06. feature CSS
+07. courses CSS
+08. funfact CSS
+09. testimonial CSS
+10. get-started CSS
+11. news CSS
+12. newslatter CSS
+13. footer CSS
+14. hero banner CSS
+15. contact intro CSS
+16. contact info CSS
+17. contact message CSS
+18. about intro CSS
+19. team CSS
+20. blog archive CSS
+
+
+*/
+
+/* ==================================================
+Google Fonts
+================================================== */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;800&family=Rubik:wght@400;500&display=swap');
+
+/* ...............................................
+01. Template Default CSS
+............................................... */
+body {
+  font-family: 'Rubik', sans-serif;
+  font-size: 16px;
+}
+
+a,
+.button {
+  -webkit-transition: all 0.3s ease-out 0s;
+  -moz-transition: all 0.3s ease-out 0s;
+  -ms-transition: all 0.3s ease-out 0s;
+  -o-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;
+}
+
+a:focus,
+.button:focus {
+  text-decoration: none;
+  outline: none;
+  text-shadow: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+  cursor: pointer;
+}
+
+a {
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+.form-control {
+  outline: 0;
+  box-shadow: none;
+}
+
+.sec-pad-top {
+  padding-top: 120px;
+}
+
+.sec-pad-bottom {
+  padding-bottom: 120px;
+}
+
+/* ==================================================
+Author's Custom Styles
+================================================== */
+/* ...............................................
+02. common css
+............................................... */
+.button {
+  background: none;
+  outline: none;
+  border: none;
+  padding: 18px 35px;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: 6px;
+}
+
+.button:hover {
+  color: #fff;
+}
+
+.button i {
+  margin-right: 10px;
+}
+
+.btn-1 {
+  background: linear-gradient(230deg, #004FE1 0%, #3478F6 100%);
+}
+
+.btn-1:hover {
+  background: linear-gradient(230deg, #3478F6 0%, #004FE1 100%);
+}
+
+.btn-2 {
+  background: linear-gradient(-320deg, #F5B016 0%, #FF8800 100%);
+}
+
+.btn-2:hover {
+  background: linear-gradient(-320deg, #FF8800 0%, #F5B016 100%);
+}
+
+.btn-3 {
+  background-color: #0ACC86;
+}
+
+.btn-4 {
+  background-color: #F5B016;
+}
+
+.btn-3:hover,
+.btn-4:hover {
+  background-color: #F20F10;
+}
+
+.btn-5 {
+  background: linear-gradient(240deg, #F20F10 0%, #FA4142 100%);
+}
+
+.btn-5:hover {
+  background: linear-gradient(240deg, #FA4142 0%, #F20F10 100%);
+}
+
+.section-title {
+  padding-bottom: 30px;
+}
+
+.section-title h5 {
+  font-size: 15px;
+  color: #F5B016;
+  text-transform: uppercase;
+}
+
+.section-title h3 {
+  font-size: 48px;
+  color: #333;
+  line-height: 63px;
+}
+
+.section-title p {
+  color: #555555;
+  line-height: 26px;
+}
+
+/* ...............................................
+03. header css
+............................................... */
+.bar {
+  height: 2px;
+  width: 100%;
+}
+
+.bar1 {
+  background-color: #FDBB28;
+}
+
+.bar2 {
+  background-color: #FA4142;
+}
+
+.bar3 {
+  background-color: #3478F6;
+}
+
+.bar4 {
+  background-color: #0ACC86;
+}
+
+.bar5 {
+  background-color: #FDBB28;
+}
+
+.bar6 {
+  background-color: #FA4142;
+}
+
+.bar7 {
+  background-color: #3478F6;
+}
+
+.nav-link {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.header ul li {
+  display: inline-block;
+  padding: 35px 0;
+  margin: 0 13px;
+  position: relative;
+}
+
+.header ul li:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  height: 2px;
+  width: 0;
+  background: #3478F6;
+  transition: 0.3s;
+}
+
+.header ul li:hover:after,
+.header ul li.active:after {
+  width: 100%;
+}
+
+.header ul li a {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  color: #333;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.header ul li:hover a,
+.header ul li a.active {
+  color: #3478F6;
+}
+
+.search-box {
+  margin-left: 20px;
+  padding: 8px 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.search-text {
+  border: none;
+  outline: none;
+  float: left;
+  width: 100px;
+}
+
+.search-text::placeholder {
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  color: lightgray;
+  letter-spacing: 0.2px;
+}
+
+.search-btn {
+  background: none;
+  outline: none;
+  border: none;
+  float: right;
+  margin-left: -20px;
+}
+
+.search-btn i {
+  font-size: 14px;
+}
+
+.header .button {
+  padding: 12px 20px;
+  font-size: 13px;
+  border-radius: 5px;
+}
+
+.header .button i {
+  margin-right: 5px;
+}
+
+.nav-btn {
+  background: #F93C3D;
+  margin-left: 30px;
+}
+
+/* ...............................................
+04. slider CSS
+............................................... */
+.slider {
+  background: url(../img/slider_image1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 800px;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+}
+
+.slider:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: -1;
+}
+
+.slider-content {
+  margin: 0 190px;
+}
+
+.slider-content h5 {
+  font-size: 22px;
+  color: #f5b016;
+  letter-spacing: 0.2px;
+  text-transform: uppercase;
+}
+
+.slider-content h1 {
+  font-size: 64px;
+  color: #fff;
+  letter-spacing: 0.2px;
+  line-height: 70px;
+  text-transform: uppercase;
+}
+
+.slider-content p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  color: #fff;
+  line-height: 30px;
+  margin-bottom: 40px;
+}
+
+.slider-content a {
+  margin: 0 8px;
+}
+
+.slider-button {
+  position: absolute;
+  bottom: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.slider-button span {
+  height: 10px;
+  width: 10px;
+  background-color: #fff;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.slider-button span:nth-child(2) {
+  height: 15px;
+  width: 15px;
+  background: transparent;
+  border: 2px solid #3478F6;
+  border-radius: 50%;
+  display: inline-block;
+  margin-bottom: -2px;
+}
+
+/* ...............................................
+05. sponsor CSS
+............................................... */
+.sponsor {
+  padding: 50px;
+  background: #F2F7FC;
+}
+
+.sponsor ul {
+  padding: 0 50px;
+}
+
+.sponsor ul li {
+  filter: grayscale(1);
+  transition: 0.3s;
+}
+
+.sponsor ul li:hover {
+  filter: grayscale(0);
+}
+
+/* ...............................................
+06. feature CSS
+............................................... */
+.feature-item {
+  padding: 40px 40px 30px 40px;
+  color: #fff;
+  position: relative;
+  z-index: 1;
+  border-radius: 6px;
+  transition: 0.45s;
+}
+
+.feature-item:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  background: url(../img/feature_bg.png);
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+
+.feature-item-1 {
+  background: linear-gradient(-130deg, #004FE1 100%, #3478F6 0%);
+
+}
+
+.feature-item-1:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: #F5B017;
+  border-radius: 6px;
+  transition: 0.45s;
+  z-index: -2;
+  opacity: 0;
+}
+
+.feature-item-1:hover:after {
+  opacity: 1;
+}
+
+.feature-item-2 {
+  background: linear-gradient(49deg, #0ACC86 100%, #00C864 0%);
+}
+
+.feature-item-2:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: #FA4243;
+  border-radius: 6px;
+  transition: 0.45s;
+  z-index: -2;
+  opacity: 0;
+}
+
+.feature-item-2:hover:after {
+  opacity: 1;
+}
+
+.feature-item-3 {
+  background: linear-gradient(49deg, #F5B016 100%, #FF8800 0%);
+}
+
+.feature-item-3:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: #0150E1;
+  border-radius: 6px;
+  transition: 0.45s;
+  z-index: -2;
+  opacity: 0;
+}
+
+.feature-item-3:hover:after {
+  opacity: 1;
+}
+
+.feature-item-4 {
+  background: linear-gradient(-48deg, #FA4142 0%, #F20F10 100%);
+}
+
+.feature-item-4:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: #0BCC86;
+  border-radius: 6px;
+  transition: 0.45s;
+  z-index: -2;
+  opacity: 0;
+}
+
+.feature-item-4:hover:after {
+  opacity: 1;
+}
+
+.feature-item .feature-details h4 {
+  font-size: 22px;
+  padding: 25px 0 15px 0;
+}
+
+.feature-item .feature-details p {
+  line-height: 24px;
+}
+
+/* ...............................................
+07. courses CSS
+............................................... */
+.single-course {
+  border-radius: 6px;
+  box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.2);
+  margin-bottom: 30px;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.course-thumb img {
+  border-radius: 6px 6px 0 0;
+}
+
+.course-content {
+  padding: 0 35px 40px 35px;
+  margin-top: -13px;
+}
+
+.course-content span.course-category {
+  font-size: 14px;
+  letter-spacing: 0.1px;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.category-1 {
+  background: #7665ff;
+}
+
+.category-2 {
+  background: #FD29C5;
+}
+
+.category-3 {
+  background: #F5B016;
+}
+
+.category-4 {
+  background: #3478F6;
+}
+
+.category-5 {
+  background: #F20F10;
+}
+
+.category-6 {
+  background: #0ACC86;
+}
+
+.course-content h4.course-title {
+  font-size: 24px;
+  color: #333;
+  line-height: 32px;
+  letter-spacing: 0.2px;
+  padding: 30px 0 25px 0;
+}
+
+.course-footer {
+  position: relative;
+  z-index: 3;
+}
+
+.rating-star {
+  margin-right: 8px;
+}
+
+.rating-star i {
+  font-size: 12px;
+}
+
+.rating-star span {
+  color: #FC0;
+}
+
+.course-footer span.rating-count {
+  color: #555;
+}
+
+.course-footer span.course-price {
+  font-weight: 500;
+  color: #555;
+}
+
+.single-course:hover .rating-star span,
+.single-course:hover .course-footer span.rating-count,
+.single-course:hover .course-footer span.course-price {
+  color: #fff;
+  transition: 0.3s;
+}
+
+.single-course-hover {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  z-index: 2;
+  border-radius: 6px;
+  transition: 0.55s;
+}
+
+.single-course:hover .single-course-hover {
+  opacity: 1;
+  transition: 0.35s;
+}
+
+.single-course-hover-content {
+  position: absolute;
+  top: -40px;
+  left: -30px;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.55s;
+}
+
+.single-course:hover .single-course-hover-content {
+  opacity: 1;
+  top: 0px;
+  left: 0px;
+  padding: 45px 35px 40px 35px;
+  transition: 0.35s;
+
+}
+
+.course-hover-1 {
+  background: #7665ff;
+}
+
+.course-hover-2 {
+  background: #fd29c5;
+}
+
+.course-hover-3 {
+  background: #f5b016;
+}
+
+.course-hover-4 {
+  background: #3478F6;
+}
+
+.course-hover-5 {
+  background: #F20F10;
+}
+
+.course-hover-6 {
+  background: #0ACC86;
+}
+
+.single-course-hover .course-category {
+  padding: 8px 12px;
+  font-size: 15px;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.course-hover-1 .course-category {
+  background: #9184FF;
+}
+
+.course-hover-2 .course-category {
+  background: #FD54D1;
+}
+
+.course-hover-3 .course-category {
+  background: #F7C045;
+}
+
+.course-hover-4 .course-category {
+  background: #5D93F8;
+}
+
+.course-hover-5 .course-category {
+  background: #F53F40;
+}
+
+.course-hover-6 .course-category {
+  background: #3BD69E;
+}
+
+.single-course-hover .course-title {
+  font-size: 24px;
+  color: #fff;
+  padding: 35px 0 20px 0;
+}
+
+.single-course-hover .course-instructor img {
+  height: 50px;
+  width: 50px;
+  margin-right: 15px;
+}
+
+.single-course-hover .course-instructor a {
+  color: #fff;
+  font-weight: 500;
+}
+
+.single-course-hover .excerpt-content p {
+  color: #fff;
+  padding: 20px 0 30px 0;
+  border-bottom: 1px solid rgb(255, 255, 255, 0.25);
+}
+
+/* ...............................................
+08. funfact CSS
+............................................... */
+.call-to-action {
+  background: #7665FF;
+  padding: 120px 0 145px 0;
+  position: relative;
+  z-index: 1;
+}
+
+.call-to-action:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-image: url(../img/funfact_bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+}
+
+.call-to-action h2 {
+  font-size: 48px;
+  color: #fff;
+
+}
+
+.call-to-action p {
+  line-height: 26px;
+  color: #fff;
+  margin: 40px 0 40px 0;
+}
+
+.call-to-action a {
+  margin: 0 8px;
+}
+
+.funfact {
+  margin-top: -70px;
+  position: relative;
+  z-index: 2;
+}
+
+.funfact-area {
+  background: linear-gradient(7deg, #0ACC86 0%, #00C864 100%);
+  color: #fff;
+  padding: 45px 15px 25px 15px;
+  border-radius: 5px;
+}
+
+.funfact-item span {
+  font-family: 'Roboto', sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+/* ...............................................
+09. testimonial CSS
+............................................... */
+.testimonial .section-title {
+  position: relative;
+}
+
+.testimonial-nevigate {
+  position: absolute;
+  top: 45%;
+  right: 0;
+}
+
+.testimonial-nevigate i {
+  height: 55px;
+  width: 55px;
+  line-height: 55px;
+  border-radius: 5px;
+  text-align: center;
+  color: #fff;
+  font-size: 14px;
+}
+
+.testimonial-nevigate .prev {
+  background: rgba(198, 221, 255, .6);
+}
+
+.testimonial-nevigate .next {
+  background: linear-gradient(135deg, #004FE1 0%, #3478F6 100%);
+}
+
+.testimonial-nevigate i:hover {
+  background: linear-gradient(135deg, #3478F6 0%, #004FE1 100%);
+}
+
+.single-testimonial {
+  margin-top: 40px;
+  padding: 50px 40px 70px 40px;
+  box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  position: relative;
+}
+
+.testimonial-1 {
+  border-top: 5px solid #0ACC86;
+}
+
+.testimonial-2 {
+  border-top: 5px solid #3478F6;
+}
+
+.testimonial-3 {
+  border-top: 5px solid #FA4142;
+}
+
+.testimonial-text h5 {
+  font-size: 20px;
+  color: #333;
+  margin: 30px 0 20px 0;
+}
+
+.testimonial-text p {
+  color: #555;
+  line-height: 26px;
+  padding-bottom: 5px;
+}
+
+.testimonial-author {
+  border-top: 1px solid #CBCDDA;
+  padding-top: 30px;
+}
+
+.testimonial-author h5 {
+  font-size: 18px;
+}
+
+.testimonial-author span {
+  color: #979797;
+}
+
+.testimonial-img {
+  position: absolute;
+  bottom: -25px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.testimonial-img img {
+  height: 70px;
+  width: 70px;
+}
+
+/* ...............................................
+10. get-started CSS
+............................................... */
+.get-started-divider {
+  border-right: 1px solid #CBCDDA;
+}
+
+.single-get-started {
+  padding: 10px 30px 20px 30px;
+}
+
+.single-get-started h3 {
+  font-size: 42px;
+  color: #333;
+}
+
+.single-get-started p {
+  line-height: 26px;
+  color: #555;
+  padding: 20px 0 40px 0;
+}
+
+/* ...............................................
+11. news CSS
+............................................... */
+.news-area {
+  background: #F7F9FB;
+  padding-bottom: 220px;
+  position: relative;
+  z-index: 2;
+}
+
+.news-area:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: url(../img/news_bg.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+
+.news-area:after {
+  content: '';
+  position: absolute;
+  top: 70%;
+  right: 0;
+  left: 3%;
+  bottom: 0%;
+  background: url(../img/pattern2.png);
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+
+.news-area-bg {
+  position: relative;
+  z-index: 1;
+}
+
+.news-area-bg:before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  right: 0;
+  left: 85%;
+  bottom: 0%;
+  background-image: url(../img/pattern1.png);
+  background-repeat: no-repeat;
+}
+
+.news {
+  position: relative;
+  margin-top: -200px;
+  z-index: 3;
+}
+
+.single-news {
+  border-radius: 0 0 5px 5px;
+  box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.2);
+  position: relative;
+}
+
+.news-thumb {
+  overflow: hidden;
+}
+
+.news-thumb img {
+  transition: 0.45s;
+}
+
+.single-news:hover .news-thumb img {
+  transform: rotate(3deg) scale(1.05);
+  opacity: 0.78;
+}
+
+.news-content {
+  padding: 40px 40px 30px 40px;
+}
+
+.news-content .news-meta-data span {
+  font-size: 14px;
+  color: #333;
+}
+
+.news-meta-data i {
+  font-size: 5px;
+  margin-right: 5px;
+}
+
+.news-date {
+  margin-right: 10px;
+}
+
+.news-date,
+.news-category {
+  position: relative;
+  display: inline-block;
+}
+
+.news-date i,
+.news-category i {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.news-date i {
+  color: #3478F6;
+}
+
+.news-category i {
+  color: #0ACC86;
+}
+
+.news-date span,
+.news-category span {
+  padding-left: 13px;
+}
+
+.single-news-body h4 {
+  font-size: 24px;
+  color: #020101;
+  line-height: 32px;
+  margin: 20px 0 20px 0;
+  transition: 0.3s;
+}
+
+.single-news:hover .single-news-body h4 {
+  color: #F20F10;
+}
+
+.news-excerption i {
+  font-size: 14px;
+  color: #333;
+  margin-right: 5px;
+  transition: 0.3s;
+}
+
+.news-excerption span {
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  border-bottom: 2px solid #333;
+  transition: 0.3s;
+}
+
+.news-excerption:hover i,
+.news-excerption:hover span {
+  color: #F20F10;
+}
+
+.news-excerption:hover.news-excerption span {
+  border-bottom: none;
+}
+
+/* ...............................................
+12. newslatter CSS
+............................................... */
+.newsletter .section-title {
+  padding-top: 15px;
+}
+
+.newsletter .section-title h3 {
+  font-size: 36px;
+  line-height: 43px;
+  letter-spacing: 0.2px;
+}
+
+.newsletter-box {
+  background: linear-gradient(19deg, #F5B016 0%, #FF8800 100%);
+  padding: 40px;
+  border-radius: 5px;
+  margin-left: 40px;
+}
+
+.newsletter-box p {
+  color: #fff;
+  line-height: 19px;
+  letter-spacing: 0.2px;
+}
+
+.newsletter-box .newsletter-text {
+  border: none;
+  outline: none;
+  width: 260px;
+  padding: 12px 10px;
+  border-radius: 4px;
+  margin-right: 15px;
+
+}
+
+.newsletter-box .newsletter-text::placeholder {
+  font-size: 14px;
+  font-weight: 500;
+  color: #CBC6CA;
+}
+
+.newsletter-box .button {
+  padding: 14px 15px;
+  border-radius: 4px;
+}
+
+.newsletter-box .form-inline {
+  margin-bottom: 15px;
+}
+
+.newsletter-box span {
+  font-size: 12px;
+  color: #fff;
+  line-height: 14px;
+}
+
+/* ...............................................
+13. footer CSS
+............................................... */
+.footer {
+  background: linear-gradient(230deg, #004FE1 0%, #3478F6 100%);
+  position: relative;
+  padding-top: 80px;
+  z-index: 1;
+}
+
+.footer:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  background: url(../img/footer_bg.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+
+.footer-menu {
+  margin-bottom: 45px;
+}
+
+.footer-menu h5 {
+  font-size: 18px;
+  color: #fff;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  position: relative;
+  display: inline-block;
+}
+
+.footer-menu h5:after {
+  content: '';
+  position: absolute;
+  bottom: -8px;
+  left: 0;
+  height: 3px;
+  width: 20px;
+  background: #F5B016;
+}
+
+.footer-menu ul li {
+  display: block;
+  padding: 8px 0 8px 25px;
+  text-transform: capitalize;
+  color: #fff;
+  position: relative;
+}
+
+.footer-menu ul li:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 2px;
+  width: 7px;
+  background: #F5B016;
+}
+
+.social-icon {
+  margin-top: 40px;
+}
+
+.social-icon i {
+  height: 40px;
+  width: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: #fff;
+  font-size: 15px;
+  border: 2px solid #4480F1;
+  border-radius: 50%;
+  transition: 0.3s;
+}
+
+#facebook:hover {
+  background: #3B5998;
+}
+
+#twitter:hover {
+  background: #1DA1F2;
+}
+
+#instagram:hover {
+  background: #1DA1F2;
+}
+
+#linkedin:hover {
+  background: #0077B5;
+}
+
+.copyright {
+  padding: 55px 0 45px 0;
+  border-top: 1px solid #4480F1;
+}
+
+.copyright-text {
+  color: #fff;
+  line-height: 19px;
+  line-height: 50px;
+}
+
+.copyright-menu {
+  margin-left: 70px;
+  line-height: 50px;
+}
+
+ul.copyright-menu li {
+  color: #fff;
+  padding: 0 17px;
+  text-transform: capitalize;
+}
+
+/* ...............................................
+14. hero banner CSS
+............................................... */
+.hero {
+  background: url(../img/hero-banner.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 350px;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+}
+
+.hero:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: -1;
+}
+
+.hero-content h3 {
+  font-size: 36px;
+  color: #fff;
+  margin: -15px 0 15px 0;
+}
+
+.hero-content p {
+  color: #fff;
+  letter-spacing: 0.4px;
+}
+
+.hero-content span {
+  padding: 0 10px;
+}
+
+/* ...............................................
+15. contact intro CSS
+............................................... */
+.contact-intro-title {
+  padding: 10px 0px 0px 100px;
+  border-right: 1px solid #D4D8E0;
+  margin-right: -35px;
+}
+
+.contact-intro-title h5 {
+  font-size: 17px;
+  font-weight: 400;
+  color: #777;
+  letter-spacing: 0.4px;
+}
+
+.contact-intro-title h3 {
+  font-size: 36px;
+  color: #333;
+  letter-spacing: 0.4px;
+}
+
+.contact-intro p {
+  margin: 15px 0 0 45px;
+  color: #777;
+}
+
+/* ...............................................
+16. contact info CSS
+............................................... */
+.contact-info {
+  padding: 70px 0 90px 0;
+}
+
+.contact-info-item {
+  height: 155px;
+  padding: 35px 30px 25px 30px;
+  border: 1px dashed #D4D8E0;
+  border-radius: 5px;
+  box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.1);
+}
+
+.contact-info-content {
+  padding-left: 80px;
+}
+
+.contact-info-content h5 {
+  font-size: 17px;
+  font-weight: 400;
+  color: #777;
+  letter-spacing: 0.4px;
+}
+
+.contact-info-content p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  color: #333;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 0.4px;
+}
+
+.contact-loc,
+.contact-mail,
+.contact-phone {
+  position: relative;
+}
+
+.contact-loc:before {
+  content: '\f1ad';
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: "Font Awesome 5 Pro";
+  font-weight: 900;
+  font-size: 22px;
+  color: #0ACC86;
+  height: 55px;
+  width: 55px;
+  border-radius: 50%;
+  line-height: 45px;
+  text-align: center;
+  border: 5px solid #EBF1F7;
+}
+
+.contact-mail:before {
+  content: '\f0e0';
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: "Font Awesome 5 Pro";
+  font-weight: 900;
+  font-size: 22px;
+  color: #004FE1;
+  height: 55px;
+  width: 55px;
+  border-radius: 50%;
+  line-height: 45px;
+  text-align: center;
+  border: 5px solid #EBF1F7;
+}
+
+.contact-phone:before {
+  content: '\f879';
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: "Font Awesome 5 Pro";
+  font-weight: 900;
+  font-size: 22px;
+  color: #F5B016;
+  height: 55px;
+  width: 55px;
+  border-radius: 50%;
+  line-height: 45px;
+  text-align: center;
+  border: 5px solid #EBF1F7;
+}
+
+/* ...............................................
+17. contact message CSS
+............................................... */
+.contact-message img {
+  border-radius: 5px;
+}
+
+.contact-message-body {
+  padding: 50px 50px 40px 50px;
+  border: 1px dashed #D4D8E0;
+  border-radius: 5px;
+  box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.1);
+}
+
+.contact-message-body h3 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.contact-message-body input,
+.contact-message-body textarea {
+  padding: 25px;
+  border: 1px solid #e5e5e5;
+  border-radius: 5px;
+  margin: 20px 0;
+}
+
+.contact-message-body input::placeholder,
+.contact-message-body textarea::placeholder {
+  color: #ADAFB8;
+}
+
+.contact-message-body textarea {
+  padding: 15px 25px 25px 25px;
+}
+
+.contact-message-body .button {
+  padding: 13px 28px;
+}
+
+.contact-btn {
+  background: #3478F6;
+}
+
+/* ...............................................
+18. about intro CSS
+............................................... */
+.about-intro-title {
+  padding-right: 25px;
+}
+
+.about-intro-title h3 {
+  font-size: 42px;
+  font-weight: 800;
+  color: #333;
+  line-height: 52px;
+  margin-bottom: 25px;
+}
+
+.about-intro-title p {
+  color: #7a7a7a;
+  position: relative;
+  padding-left: 25px;
+}
+
+.about-intro-title p:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 2px;
+  background: #CED9EE;
+}
+
+.about-intro-body {
+  margin: 0 10px 0 25px;
+}
+
+.about-intro-item {
+  color: #fff;
+  padding: 40px 45px;
+  border-radius: 5px;
+  margin: 0 -8px;
+}
+
+.about-intro-item.about-item-1 {
+  background: #3478F6;
+}
+
+.about-intro-item.about-item-2 {
+  background: #FA4142;
+}
+
+.about-intro-item.about-item-3 {
+  background: #F5B016;
+}
+
+.about-intro-item h5 {
+  font-size: 24px;
+  margin: 20px 0 10px 0;
+}
+
+.about-intro-video-wrapper {
+  background: url(../img/about-video-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  width: 100%;
+  border-radius: 6px;
+  position: relative;
+}
+
+.about-intro-video-wrapper a:before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background: #3478F6;
+}
+
+.about-intro-video a i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+  color: #fff;
+}
+
+/* ...............................................
+19. team CSS
+............................................... */
+.team-title {
+  padding: 10px 30px 0px 140px;
+  border-right: 1px solid #D4D8E0;
+}
+
+.team-title h5 {
+  font-size: 17px;
+  font-weight: 400;
+  color: #777;
+  letter-spacing: 0.4px;
+}
+
+.team-title h3 {
+  font-size: 42px;
+  color: #333;
+  letter-spacing: 0.4px;
+  line-height: 42px;
+}
+
+.team p {
+  padding: 30px 110px 0 15px;
+  color: #777;
+}
+
+/* ...............................................
+20. blog archive CSS
+............................................... */
+.blog-archive-item {
+  margin-bottom: 40px;
+}
+
+.blog-archive-item-content {
+  border: 1px solid #D4D8E0;
+  padding: 45px 40px;
+}
+
+.blog-archive-meta-data span {
+  color: #3478F6;
+  font-size: 14px;
+  margin-right: 20px;
+}
+
+.blog-archive-meta-data span.date {
+  color: #333;
+}
+
+.blog-archive-meta-data span.date i {
+  color: #3478F6;
+}
+
+.blog-archive-meta-data span i {
+  margin-right: 5px;
+}
+
+.blog-archive-item-body a h3 {
+  font-size: 36px;
+  margin: 30px 0;
+  transition: 0.3s;
+}
+
+.blog-archive-item-body a h3:hover {
+  color: #3478F6;
+}
+
+.blog-archive-item-body p {
+  color: #555;
+  margin-bottom: 33px;
+}
+
+.blog-archive-read-more a {
+  color: #3478F6;
+}
+
+.blog-archive-item-body a i {
+  margin: 0 0 0 3px;
+}
+
+.blog-search {
+  margin-bottom: 10px;
+}
+
+.blog-search .blog-search-text {
+  padding: 22px;
+}
+
+.blog-search .btn {
+  padding: 0 20px;
+}
+
+.sidebar-box {
+  margin: 40px 0;
+  border: 1px solid #D4D8E0;
+  padding: 45px;
+}
+
+.sidbar-title h4 {
+  font-size: 20px;
+  margin-bottom: 30px;
+  padding-bottom: 15px;
+  position: relative;
+}
+
+.sidbar-title h4:before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 2px;
+  width: 50px;
+  background: #3478F6;
+}
+
+.sidebar-single-item {
+  color: #666;
+  margin-top: 15px;
+  border-bottom: 1px dashed #D4D8E0;
+}
+
+.sidebar-single-item:last-child {
+  border: none;
+}
+
+.sidebar-single-item:hover {
+  color: #3478F6;
+}
